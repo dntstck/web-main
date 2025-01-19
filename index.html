@@ -57,6 +57,16 @@ title: Home
 <main>
     <p class="lead">
         <div align="center"><img src="https://img.shields.io/badge/Status-Under%20Construction-%2324292e.svg?style=for-the-badge&amp;labelColor=%23FFC107" alt="Under Construction Badge"></div>
+        <div x-data="{ showModal: false }">
+        <button @click="showModal = true">Show Modal</button>
+        <div x-show="showModal" class="modal">
+        <div class="modal-content">
+        <span @click="showModal = false" class="close">&times;</span>
+      <p>Content here</p>
+    </div>
+  </div>
+</div>
+
     </p>
 </main>
 

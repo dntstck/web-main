@@ -1,0 +1,9 @@
+# _config.yml
+title: Your Site Title
+description: A description of your site
+baseurl: "/web-main" 
+url: "https://username.github.io" 
+
+# Build settings
+markdown: kramdown
+theme: minima

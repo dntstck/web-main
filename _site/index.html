@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<link rel="stylesheet" href="/web-main/assets/style.css">
+</head>
+<body>
+
+    <main>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link rel="stylesheet" href="/web-main/assets/style.css">
+</head>
+<body>
+<nav>
+    <a href="#" class="brand">Dru Delarosa</a>
+    <div>
+        <a href="#" class="hover:text-orange-500">Home</a>
+        <div class="dropdown" x-data="{ open: false }">
+            <a href="#" @click.prevent="open = !open" class="hover:text-orange-500">Portfolio</a>
+            <div class="dropdown-content" x-show="open" @click.away="open = false">
+                <a href="https://dntstck.github.io/blog">Developer Blog</a>
+                <a href="https://dntstck.github.io/blog/devserver">Dev Server</a>
+                <a href="https://github.com/dntstck/pElements">pElements</a>
+                <a href="https://github.com/dntstck/ubuntu.vim">ubuntu.vim</a>
+            </div>
+        </div>
+        <div class="dropdown" x-data="{ open: false }">
+            <a href="#" @click.prevent="open = !open" class="hover:text-orange-500">Blog</a>
+            <div class="dropdown-content" x-show="open" @click.away="open = false">
+                <a href="https://dntstck.github.io/blog/">Home</a>
+                <a href="https://dntstck.github.io/blog/cm5">CM5</a>
+                <a href="https://dntstck.github.io/blog/devserver">Dev Server</a>
+                <a href="https://dntstck.github.io/blog/raspberrypi">Raspberry Pi</a>
+                <a href="https://dntstck.github.io/blog/picosystem">PicoSystem</a>
+                <a href="https://dntstck.github.io/blog/Microcontrollers">Microcontrollers</a>
+                <a href="https://dntstck.github.io/blog/embeddedc">C & Embedded</a>
+                <a href="https://dntstck.github.io/blog/linux">Linux</a>
+                <a href="https://dntstck.github.io/blog/osnetworking">Operating Systems</a>
+                <a href="https://dntstck.github.io/blog/networking">Networking</a>
+                <a href="https://dntstck.github.io/blog/webdev">Web Development</a>
+                <a href="https://dntstck.github.io/blog/thoughts">Thoughts</a>
+                <a href="https://dntstck.github.io/blog/misc">Misc</a>
+            </div>
+        </div>
+        <div class="dropdown" x-data="{ open: false }">
+            <a href="#" @click.prevent="open = !open" class="hover:text-orange-500">Contact</a>
+            <div class="dropdown-content" x-show="open" @click.away="open = false">
+                <a href="https://github.com/dntstck">GitHub</a>
+                <a href="https://linkedin.com/in/drudelarosa">LinkedIn</a>
+                <a href="https://stackoverflow.com/users/28874348/dru-delarosa">Stack Overflow</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <p class="lead">
+        <div align="center"><img src="https://img.shields.io/badge/Status-Under%20Construction-%2324292e.svg?style=for-the-badge&amp;labelColor=%23FFC107" alt="Under Construction Badge"></div>
+        <div align="center" x-data="{ showModal: false }">
+        <button @click="showModal = true">Latest Blog Posts</button>
+        <div x-show="showModal" class="modal">
+        <div class="modal-content">
+        <span @click="showModal = false" class="close">&times;</span>
+      <p><a href="https://dntstck.github.io/blog/cm5/cm5-unveiled" target="_blank"><div class="shield"><img alt="CM5" src="https://img.shields.io/badge/-CM5-151515?&logo=raspberrypi&logoColor=white"></div></a></p>
+    </div>
+  </div>
+</div>
+
+    </p>
+</main>
+
+<footer>
+    &copy; 2025 Dru Delarosa
+</footer>
+
+</body>
+</html>
+
+    </main>
+
+</body>
+</html>

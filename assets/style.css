@@ -73,7 +73,7 @@ button {
   background-color: #161b22;
   color: #ffffff;
   padding: 0.5rem 1rem;
-  border-radius: 5px;
+  border-radius: 2px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
@@ -86,7 +86,7 @@ button:hover {
 
 button:active {
   background-color: #161b22;
-  transform: scale(0.95);
+  transform: scale(0.50);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 

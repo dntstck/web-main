@@ -1,7 +1,7 @@
 # _config.yml
 title: Dru Delarosa
 description:
-baseurl: "/web-main" 
+baseurl: "" 
 url: "https://dntstck.co.uk" 
 
 # Build settings

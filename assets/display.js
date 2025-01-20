@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const dropdownElement = document.getElementById('dropdown');
 
   if (navElement) {
-    console.log("nav found");
+    console.log("nav element found, scripting...");
 
     navElement.addEventListener("mouseover", function () {
       navElement.style.opacity = "0.8";
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
     if (dropdownElement) {
-    console.log("shield element found, scripting...")
+    console.log("dropdown element found, scripting...")
     dropdownElement.addEventListener("mouseover", function () {
       dropdownElement.style.opacity = "0.6";
       dropdownElement.style.transition = "opacity 0.3s ease";

@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navElement = document.getElementById("nav");
   const shieldElement = document.getElementById('shield');
+  const dropdownElement = document.getElementById('dropdown');
 
   if (navElement) {
     console.log("nav found");
@@ -26,6 +27,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     shieldElement.addEventListener("mouseout", function () {
       shieldElement.style.opacity = "1";
+    });
+  }
+
+    if (dropdownElement) {
+    console.log("shield element found, scripting...")
+    dropdownElement.addEventListener("mouseover", function () {
+      dropdownElement.style.opacity = "0.6";
+      dropdownElement.style.transition = "opacity 0.3s ease";
+    });
+
+    dropdownElement.addEventListener("mouseout", function () {
+      dropdownElement.style.opacity = "1";
     });
   }
 });

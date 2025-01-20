@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (shieldElement) {
     console.log("shield element found, scripting...")
     shieldElement.addEventListener("mouseover", function () {
-      shieldElement.style.opacity = "0.8";
+      shieldElement.style.opacity = "0.6";
       shieldElement.style.transition = "opacity 0.3s ease";
     });
 

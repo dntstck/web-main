@@ -101,17 +101,4 @@ button.secondary:hover {
   color: #e95420;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (-moz-min-device-pixel-ratio: 2),
-  (-o-min-device-pixel-ratio: 2) {
-  #blog-post {
-    width: 90%;
-    margin: 10px auto;
-    padding: 15px;
-  }
-  img {
-    max-width: 90%;
-    height: auto;
-  }
-}
+

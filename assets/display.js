@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navElement = document.getElementById("nav");
+  const shieldElement = document.getElementById('shield');
 
   if (navElement) {
     console.log("nav found");
@@ -14,5 +15,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   } else {
     console.log("nav not found");
+  }
+
+  if (shieldElement) {
+    console.log("shield element found, scripting...")
+    shieldElement.addEventListener("mouseover", function () {
+      shieldElement.style.opacity = "0.8";
+      shieldElement.style.transition = "opacity 0.3s ease";
+    });
+
+    shieldElement.addEventListener("mouseout", function () {
+      shieldElement.style.opacity = "1";
+    });
   }
 });

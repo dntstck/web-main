@@ -1,118 +1,118 @@
 body {
-    background-color: #0d1117; /* GitHub dark background */
-    color: #c9d1d9; /* GitHub light text */
-    font-family: 'Roboto', sans-serif;
-    font-size: small;
-    margin: 0;
-    padding: 0;
+  background-color: #0d1117; /* GitHub dark background */
+  color: #c9d1d9; /* GitHub light text */
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    padding: 1rem;
-    background-color: #161b22;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 1rem;
+  background-color: #161b22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
-    color: #c9d1d9;
-    text-decoration: none;
-    margin: 0 1rem;
+  color: #c9d1d9;
+  text-decoration: none;
+  margin: 0 1rem;
 }
 
 nav a:hover {
-    color: #E95420; /* Ubuntu orange */
+  color: #e95420; /* Ubuntu orange */
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #161b22;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #161b22;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: #c9d1d9;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    display: block;
+  color: #c9d1d9;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #E95420;
-    color: #ffffff;
+  background-color: #e95420;
+  color: #ffffff;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
-.shield{
-    transition: background-color 0.3s ease, transform 0.2s ease;
+.shield {
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 main {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 footer {
-    padding: 1rem;
-    background-color: #0d1117;
-    text-align: center;
+  padding: 1rem;
+  background-color: #0d1117;
+  text-align: center;
 }
 
 hr {
-    border-top: 2px solid #8b949e;
-    opacity: 1;
-    margin: 2rem 0;
+  border-top: 2px solid #8b949e;
+  opacity: 1;
+  margin: 2rem 0;
 }
 button {
-    background-color: #161b22;
-    color: #ffffff;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: #161b22;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #0d1117;
-    color: #E95420;
-    transform: scale(1.05);
+  background-color: #0d1117;
+  color: #e95420;
+  transform: scale(1.05);
 }
 
 button:active {
-    background-color: #161b22;
-    transform: scale(0.95);
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  background-color: #161b22;
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 button.secondary {
-    background-color: #0d1117;
-    color: #c9d1d9;
-    border: 2px solid #c9d1d9;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  border: 2px solid #c9d1d9;
 }
 
 button.secondary:hover {
-    background-color: #1c2027;
-    color: #E95420;
+  background-color: #1c2027;
+  color: #e95420;
 }
 
 @media (max-width: 600px) {
-    #blog-post {
-      width: 90%;
-      margin: 10px auto;
-      padding: 15px;
-    }
-    img {
-      max-width: 90%;
-      height: auto;
-    }
+  #blog-post {
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+  img {
+    max-width: 90%;
+    height: auto;
+  }
 }
